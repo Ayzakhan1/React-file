@@ -1,0 +1,348 @@
+nav a{
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    margin: 0 10px;
+    color: #7b7b7b;
+}
+.themebtn{
+    background-color: #e73540 !important;
+    border: 1px solid #e73540 !important;
+    color: white !important;
+    font-size: 16px !important;
+    padding: 10px 22px !important;
+    margin-left: 10px;
+}
+.themebtn:hover{
+    color: #e73540 !important;
+    background-color: white !important;
+}
+.headerFOam a{
+    background-color:#FDE1E3 ;
+    color: #e73540 !important ;
+    font-size: 20px !important;
+    padding: 1px 5px 3px 5px;
+    border-radius: 50%;
+}
+.collection_icon{
+    position: relative;
+}
+.collection_icon::after{
+    content: 'new';
+    position: absolute;
+    top: -20%;
+    left: 80%;
+    font-size: 9px;
+    font-weight: 600;
+    background-color:#FDE1E3 ;
+    color: #e73540;
+    padding: 0 8px;
+    border-radius: 30%;
+    text-transform: capitalize;
+    animation: blinknav 1s infinite;
+}
+@keyframes blinknav{
+50%{
+    opacity: 1;
+}
+100%{
+    opacity: 0;
+}
+}
+.intro_banner{
+    background-image: url('./assests/images/collections+background.jpeg');
+    text-align: center;
+    padding: 23px 0;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(211, 211, 211, 0.562);
+}
+img{
+    width: 100%;
+}
+.intro_inner{
+    width: 350px;
+    margin: auto;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+.intro_banner h3{
+    color: #212529;
+    font-size: 20px;
+}
+.intro_banner p{
+    color: #212529;
+    line-height: 10px !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+.ineer_marqye{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.marque_icon{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.slider2{
+    width: 1000px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px 1px rgb(233, 227, 227);
+    border-radius: 10px;
+}
+.slider2 > h6{
+    font-size: 17px;
+   font-weight: 600; 
+   padding: 23px 10px !important;
+   margin: 0;
+} 
+.sliderimg img{
+   width: 90px;
+}
+.slidecard{
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    border: 1px solid #F2F3F7;
+   
+}
+.slidecard h6{
+    padding: 10px 0;
+    margin: 0;
+}
+.amount{
+    font-size: 24px;
+    font-weight: 800;
+    color: #e73540;
+    padding: 5px 0;
+}
+.slidecard span{
+    font-size: 13px;
+    font-weight: 700;
+    color: #191919;
+}
+.starting{
+    color: #72777a;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+.slick-{
+    margin-bottom: 50px;
+}
+.slick-dots li button:before {
+    content:''!important;
+    background-color: black;
+    width: 20px;
+    height: 5px !important;
+    border-radius: 10px;
+}
+.slick-ative{
+    width: 25px !important;
+}
+.free-main{
+    width: 730px;
+    padding-bottom: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.free-div{
+   width: 350px;
+  display: flex;
+  box-shadow: 0 0 10px 1px rgb(245, 242, 242);
+  padding: 7px;
+  border-radius:10px;
+  cursor: pointer;
+}
+.imgframe{
+    background-image: url('./assests/images/offer-frame.png');
+    width: 60px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 0 0 8px;
+    
+}
+.free-heading{
+    color: #191919;
+    font-size: 16px;
+    font-weight: 600;
+}
+.free-div p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #72777A;
+}
+.requirement{
+    width: 1100px;
+    margin: auto;
+    background: linear-gradient(85.45deg, #e6eefd 3.69%, #fff 96.31%);
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgb(238, 232, 232);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.require_content p{
+    font-size: 31px;
+    font-weight: 600;
+    color: #818589;
+}
+.require_content span{
+    color: #E73540;
+    font-weight:700 ;
+}
+.require_content{
+    text-align: end;
+    margin-right: 50px;
+}
+.require_img{
+    text-align: center;
+}
+.require_content button{
+    background-color: #E73540;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 50px;
+    border: none;
+    border: 1px solid  #E73540;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.require_content button:hover{
+    background-color: white;
+    color:  #E73540;
+    border: 1px solid  #E73540;
+}
+.mistry-work{
+    background-color: linear-gradient(150.74deg, #faf3e9 49.09%, #eceefd 96.67%);;
+    margin-top: 50px;
+}
+.work_inner{
+    width: 1100px;
+    margin: auto;
+    padding: 70px 0;
+}
+.work_inner h1{
+    font-size: 42px;
+    color: #191919;
+    font-weight: normal;
+}
+.work_inner h3{
+    font-size: 22px;
+    font-weight: normal;
+}
+.work_img{
+    width: 70px;
+}
+.work_text{
+    margin-left: 20px;
+}
+.work_text h6{
+   font-size: 21px;
+   font-weight: 600;
+}
+.work_text p{
+    font-size: 17px;
+    color: #72777A;
+}
+.p_img{
+    bottom: 20px;
+    right: 40px;
+}
+.painters{
+    background-color: linear-gradient(85.45deg, #f7fde6 3.69%, #fff 96.31%) ;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgb(238, 232, 232);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.register{
+    background-color: #002F6C;
+    padding-bottom: 30px ;
+    margin-top: 50px;
+}
+.register_inner{
+    width: 1100px;
+    margin: auto;
+}
+.register_left p{
+    font-size: 38px;
+    font-weight: 700;
+    color: white;
+    line-height: 42px;
+
+}
+.register_left img{
+    width: 360px;
+}
+.register_left span{
+    color: #E73540 !important;
+    font-size: 38px;
+    font-weight: 700;
+}
+.register_right{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+.box{
+    background-color: #FFF5F5;
+    width: 180px;
+    padding: 15px;
+    border-radius: 15px;
+    z-index: 999;
+}
+.box_img{
+    width: 60px;
+    margin-bottom: 13px;
+}
+.box h6{
+    font-size: 14px;
+    font-weight: 600;
+}
+.box p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #72777A;
+    margin-bottom: 0;
+}
+.dots{
+    bottom: -25px;
+    left: -40px;
+}
+.left-img{
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    z-index: 999;
+}
+.tab-head button{
+    background-color:white;
+    transition: 0.2s;
+}
+.tab-head button:hover{
+    background-color: black !important;
+    color: white !important;
+}
+.tabbing{
+    margin: 50px 0;
+    box-shadow: 0 0 10px 1px rgb(243, 241, 241);
+}
+.active-tab-btn{
+    background-color: black !important;
+    color: white !important;
+}

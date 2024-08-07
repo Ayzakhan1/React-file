@@ -1,0 +1,16 @@
+.page{
+  padding: 20px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  font-size: 40px;
+}
+.footer{
+  background-color: aqua;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
