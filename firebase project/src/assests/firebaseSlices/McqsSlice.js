@@ -12,7 +12,7 @@ export const McqsSlice = createSlice({
     name:'mcqs',
     intialState,
     reducers:{
-        getdata:async(state)=>{
+        getdata: async (state)=>{
          const db =  getDatabase(firebaseapp);
          const dbRef = ref(db)
         const response = await get(child(dbRef, 'mcqs'))
