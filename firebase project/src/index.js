@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './assests/pages/Home';
 import Manage from './assests/pages/Manage';
+import { Provider } from 'react-redux';
+import { store } from './firebaseStore/firebaseStore';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -22,7 +24,9 @@ const routes = createBrowserRouter([
 
 root.render(
   <React.StrictMode>
+    <Provider store={store}>
     <RouterProvider router={routes}/>
+    </Provider>
   </React.StrictMode>
 );
 
